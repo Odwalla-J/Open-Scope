@@ -10,8 +10,7 @@ Contributions and feedback can be given on my Discord in the corresponding chann
 (insert picture)
 
 The core idea is to simplify the addition of LCD scopes to existing lightguns using a simple 4 wire interface for use with Silent Scope or future projects.
-Although this is an admittedly niche matter, there weren't any compelling or clean solutions that felt practical or reliable.
-
+Although this is an admittedly niche project, there weren't any compelling or clean solutions that felt practical or reliable outside of the use of small HDMI displays with all of their required cabling.
 Using a cheap GC9A01 based round LCD and an ESP32-P4 it's possible to send the video signal as a byte array over serial to the display at it's native 240x240 and achieve a smooth 60fps.
 With a bit of pre-planning or slight modification this can be implemented within existing USB based lightgun peripherals through the addtion of a cheap USB hub PCB that supports USB 2.0 High Speed.
 
