@@ -9,19 +9,11 @@ Contributions and feedback can be given on my Discord in the corresponding chann
 
 (insert picture)
 
+The core idea here is to simplify the addition of LCD scopes to existing lightguns using a simple 4 wire interface for use with Silent Scope or future projects.
+Although this is an admittedly niche matter, there weren't any compelling or clean solutions that felt practical or reliable.
 
-
-## Bill of Materials
-
-(Coming Soon)
-
-###### AliExpress links above are affiliate links that help me to continue providing free and open source designs like these
-
-## Printing Instructions
-(Coming Soon)
- 
-## Assembly
-(Coming Soon)
+Using a cheap GC9A01 based round LCD and an ESP32-P4 it's possible to send the video signal as a byte array over serial to the display at it's native 240x240 and achieve a smooth 60fps.
+With a bit of pre-planning or slight modification this can be implemented within existing USB based lightgun peripherals through the addtion of a cheap USB hub PCB that supports USB 2.0 High Speed.
 
 ## Shout Outs
 Thanks to [McCutheon](https://github.com/mccutheon) for the initial inspiration and encouragement on the project, RG2020 for his invaluable feedback, and the rest of the OpenFIRE team for making all of this possible, free and accessible.
