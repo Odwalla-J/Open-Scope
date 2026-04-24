@@ -1,6 +1,6 @@
-# Open-Scope
+# inScope
 
-The Open-Scope project is an open source effort designed to serve as a framework for the community to encourage the development and refinement for the (admittedly niche) use of LCD based scope systems for the broader DIY lightgun community.
+The inScope project is an open source effort designed to serve as a framework for the community to encourage the development and refinement for the (admittedly niche) use of LCD based scope systems for the broader DIY lightgun community.
 
 This software + firmware + hardware stack includes the custom MAME plugin and host software, the ESP32 based scope, and a 3D printable rifle inspired by Konami's own arcade controller. 
 
