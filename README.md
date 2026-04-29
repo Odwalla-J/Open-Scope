@@ -19,9 +19,12 @@ With a bit of pre-planning or slight modification this can be implemented within
 The setup is pretty simple. With a completed scope assembled you will need the following:
 - (dependencies)
 
+(insert app picture)
 Make sure your completed scope is connected before opening the app. Upon opening the app you will be given the option to select MAME Mode or Cursor Mode.
 MAME Mode will wait for you to launch compatible games through MAME with the plugin active.
+(insert MAME Mode picture)
 Cursor Mode outputs a defined radius around the mouse cursor to provide compatability for PCSX2s Silent Scope implementation.
+(insert Cursor Mode picture)
 
 ## Shout Outs
 
