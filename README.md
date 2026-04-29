@@ -14,5 +14,15 @@ Although this is an admittedly niche project, there weren't any compelling or cl
 Using a cheap GC9A01 based round LCD and an ESP32-P4 it's possible to send the video signal as a byte array over serial to the display at it's native 240x240 and achieve a smooth 60fps.
 With a bit of pre-planning or slight modification this can be implemented within existing USB based lightgun peripherals through the addtion of a cheap USB hub PCB that supports USB 2.0 High Speed.
 
+## Setup
+
+The setup is pretty simple. With a completed scope assembled you will need the following:
+- (dependencies)
+
+Make sure your completed scope is connected before opening the app. Upon opening the app you will be given the option to select MAME Mode or Cursor Mode.
+MAME Mode will wait for you to launch compatible games through MAME with the plugin active.
+Cursor Mode outputs a defined radius around the mouse cursor to provide compatability for PCSX2s Silent Scope implementation.
+
 ## Shout Outs
+
 Thanks to [McCutheon](https://github.com/mccutheon) for the initial inspiration and encouragement on the project, RG2020 for his invaluable design testing and feedback, and the rest of the OpenFIRE team for making all of this possible, free and accessible.
